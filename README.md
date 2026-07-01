@@ -16,5 +16,5 @@ Welcome to my personal code showcase! **Codveda** is a repository dedicated to d
 
 If you are a recruiter, fellow developer, or just someone interested in checking out my work, I'd love to connect and chat about potential opportunities, data science, or coding.
 
-* **LinkedIn:**
+* **LinkedIn:**https://github.com/ibrahimsayyed69
 * **Email:** Ibrahimsayyedqatar@gmail.com
