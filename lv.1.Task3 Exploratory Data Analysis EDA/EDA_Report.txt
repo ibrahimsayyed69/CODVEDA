@@ -1,0 +1,16 @@
+# Exploratory Data Analysis (EDA) Report
+Project: Telecom Customer Churn Analysis (Level 1 - Task 3)
+
+## 1. Executive Summary
+This report summarizes the structure, distributions, and patterns found within the telecom customer dataset. The dataset contains 667 records with no missing values, spanning 16 numerical features.
+
+## 2. Key Findings & Statistical Insights
+* Data Completeness: The dataset was audited using .isnull().sum() and contains 0 missing entries, making it highly reliable for downstream modeling.
+* Customer Behavior: The average customer has an account length of ~103 days and makes approximately 1.56 customer service calls.
+* Outlier Detection:
+  - The 'Customer service calls' distribution is highly right-skewed; while the 75th percentile is at 2 calls, some customers have reached up to 8 calls.
+  - The box plot for 'Total day minutes' reveals standard variations with a few distinct low-end and high-end outliers (e.g., calls lasting over 320 minutes).
+
+## 3. Correlation Analysis
+* Perfect Linear Relationships: A perfect correlation coefficient of 1.00 exists between call minutes and call charges across all time frames (Day, Evening, Night, International). 
+* Churn Indicators: 'Customer service calls' and 'Total day minutes/charges' show the highest relative positive correlation with the 'Churn' flag (around 0.23 to 0.24). This indicates that heavy daytime users and customers frequently calling support are more likely to churn.
